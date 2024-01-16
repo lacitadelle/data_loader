@@ -103,7 +103,8 @@ async function loadDataToDatabase() {
     }
   }
 
-
+  console.log("All Done!")
+  await client.close()
 }
 
 loadDataToDatabase();
